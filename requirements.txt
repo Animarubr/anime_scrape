@@ -1,15 +1,16 @@
-beautifulsoup4==4.8.0
+-i https://pypi.org/simple/
+beautifulsoup4==4.9.3
 bs4==0.0.1
-certifi==2019.6.16
+certifi==2020.12.5
 chardet==3.0.4
-Click==7.0
-Flask==1.1.1
+click==7.1.2
+flask==1.1.1
 gunicorn==19.9.0
 idna==2.8
 itsdangerous==1.1.0
-Jinja2==2.10.1
-MarkupSafe==1.1.1
+jinja2==2.11.3
+markupsafe==1.1.1
 requests==2.22.0
-soupsieve==1.9.3
-urllib3==1.25.3
-Werkzeug==0.15.5
+soupsieve==2.2.1 ; python_version >= '3.0'
+urllib3==1.25.11
+werkzeug==1.0.1
